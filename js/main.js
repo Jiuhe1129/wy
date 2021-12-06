@@ -28,3 +28,7 @@ $(".y").autotype();
 
 console.log("123")
 
+window.onload = function () {
+    $("nav").css("top", "0");
+    $(".lp").css("opacity", "1 ")
+}
