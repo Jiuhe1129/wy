@@ -1,4 +1,3 @@
-
 $.fn.autotype = function () {
     var $text = $(this);
     console.log('this', this);
@@ -25,8 +24,6 @@ $.fn.autotype = function () {
         500);
 };
 $(".y").autotype();
-
-console.log("123")
 
 window.onload = function () {
     $("nav").css("top", "0");
